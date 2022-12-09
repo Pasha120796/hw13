@@ -1,19 +1,3 @@
-.open-animation-block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 19;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    animation: start .6s linear 1s 1 both;
-}
-
-.open-animation-block img{
-    animation: logoanimation .6s linear 1 both ;
-}
-
 .img-revolut-wrap img,
 .list-logo-box a,
 .list-logo li,
@@ -47,21 +31,6 @@
 .list-logo li:hover,
 .list-flex a:hover{
     transform: translateY(-2px);
-}
-
-.wrapper::before {
-    content: '';
-    display: block;
-    position: fixed;
-    z-index: 20;
-    width: 100%;
-    height: 100%;
-    background-color: #FF6336;
-    animation: end 1s linear .6s 1 both;
-}
-
-.flex-holder a{
-    animation: last .7s linear infinite alternate;
 }
 
 @keyframes last {
